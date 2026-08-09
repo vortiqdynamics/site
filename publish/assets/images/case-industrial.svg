@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-labelledby="title desc">
+  <title id="title">Industrial IoT monitoring placeholder</title>
+  <desc id="desc">Industrial equipment connected to a monitoring dashboard.</desc>
+  <rect width="760" height="520" rx="16" fill="#0B1F23"/>
+  <rect x="76" y="288" width="180" height="130" rx="12" fill="#1E3D40" stroke="#A8E6CF" stroke-width="3"/>
+  <rect x="304" y="218" width="150" height="200" rx="12" fill="#005461" stroke="#A8E6CF" stroke-width="3"/>
+  <rect x="500" y="106" width="184" height="312" rx="12" fill="#FBF5DD"/>
+  <path d="M112 332h100M112 364h72M338 270h82M338 304h60M338 338h88" stroke="#A8E6CF" stroke-width="10" stroke-linecap="round"/>
+  <path d="M532 172h112M532 216h78M532 260h112M532 304h54" stroke="#005461" stroke-width="9" stroke-linecap="round"/>
+  <path d="M256 350 C298 350 284 260 304 260M454 260 C486 260 470 190 500 190" fill="none" stroke="#3ED16F" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="256" cy="350" r="18" fill="#3ED16F"/>
+  <circle cx="304" cy="260" r="18" fill="#A8E6CF"/>
+  <circle cx="500" cy="190" r="18" fill="#FFF57E"/>
+</svg>

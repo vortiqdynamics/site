@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-labelledby="title desc">
+  <title id="title">Cloud dashboard placeholder</title>
+  <desc id="desc">A stylized cloud operations dashboard with charts and status panels.</desc>
+  <rect width="760" height="520" rx="16" fill="#005461"/>
+  <rect x="54" y="58" width="652" height="404" rx="16" fill="#0B1F23" stroke="#A8E6CF" stroke-width="3"/>
+  <rect x="88" y="92" width="584" height="48" rx="10" fill="#1E3D40"/>
+  <rect x="88" y="170" width="180" height="116" rx="12" fill="#A8E6CF"/>
+  <rect x="290" y="170" width="180" height="116" rx="12" fill="#3ED16F"/>
+  <rect x="492" y="170" width="180" height="116" rx="12" fill="#FFF57E"/>
+  <rect x="88" y="322" width="380" height="104" rx="12" fill="#1E3D40"/>
+  <rect x="492" y="322" width="180" height="104" rx="12" fill="#FBF5DD"/>
+  <path d="M124 386 C180 340 224 404 286 362 C326 336 356 348 430 342" fill="none" stroke="#3ED16F" stroke-width="9" stroke-linecap="round"/>
+  <path d="M122 232h108M322 228h106M524 226h104M524 250h72" stroke="#0B1F23" stroke-width="10" stroke-linecap="round"/>
+  <path d="M124 116h174M536 116h88" stroke="#A8E6CF" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="550" cy="374" r="28" fill="#005461"/>
+  <circle cx="616" cy="374" r="28" fill="#A8E6CF"/>
+</svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract PCB and cloud system</title>
+  <desc id="desc">Animated circuit traces connecting hardware, cloud nodes, dashboards, and mobile interfaces.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0B1F23"/>
+      <stop offset="0.52" stop-color="#005461"/>
+      <stop offset="1" stop-color="#1E3D40"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .trace{fill:none;stroke:#A8E6CF;stroke-width:3;stroke-dasharray:12 16;animation:dash 5s linear infinite}
+      .hot{stroke:#3ED16F;stroke-width:5;filter:url(#glow)}
+      .node{fill:#A8E6CF;stroke:#fff;stroke-width:2;animation:pulse 2.8s ease-in-out infinite;transform-origin:center}
+      .panel{fill:rgba(251,245,221,.1);stroke:rgba(168,230,207,.42);stroke-width:2}
+      .screen{fill:rgba(11,31,35,.72);stroke:rgba(168,230,207,.34);stroke-width:2}
+      @keyframes dash{to{stroke-dashoffset:-150}}
+      @keyframes pulse{50%{opacity:.65;transform:scale(1.04)}}
+    </style>
+  </defs>
+  <rect width="900" height="620" rx="18" fill="url(#bg)"/>
+  <g opacity=".18">
+    <path d="M0 120H900M0 240H900M0 360H900M0 480H900M150 0V620M300 0V620M450 0V620M600 0V620M750 0V620" stroke="#A8E6CF"/>
+  </g>
+  <rect class="panel" x="70" y="80" width="250" height="210" rx="12"/>
+  <rect class="panel" x="560" y="82" width="260" height="150" rx="12"/>
+  <rect class="screen" x="520" y="330" width="260" height="190" rx="12"/>
+  <rect class="screen" x="120" y="384" width="190" height="118" rx="12"/>
+  <g>
+    <path class="trace hot" d="M195 186 C350 186 350 150 465 150 C570 150 575 160 690 160"/>
+    <path class="trace" d="M195 186 C330 250 405 320 565 418"/>
+    <path class="trace" d="M215 442 C380 442 410 418 520 418"/>
+    <path class="trace" d="M455 150 C455 255 500 300 650 330"/>
+    <path class="trace hot" d="M320 210 C410 250 432 320 432 410 C432 480 480 504 610 504"/>
+  </g>
+  <g>
+    <circle class="node" cx="195" cy="186" r="16"/>
+    <circle class="node" cx="455" cy="150" r="14"/>
+    <circle class="node" cx="690" cy="160" r="18"/>
+    <circle class="node" cx="565" cy="418" r="15"/>
+    <circle class="node" cx="215" cy="442" r="14"/>
+    <circle class="node" cx="610" cy="504" r="13"/>
+  </g>
+  <g transform="translate(118 126)">
+    <rect width="122" height="122" rx="16" fill="#0B1F23" stroke="#A8E6CF" stroke-width="3"/>
+    <path d="M25 45h72M25 65h72M25 85h48" stroke="#3ED16F" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-32 24h32M-32 62h32M-32 100h32M122 24h32M122 62h32M122 100h32M24-32v32M62-32v32M100-32v32M24 122v32M62 122v32M100 122v32" stroke="#A8E6CF" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(604 124)">
+    <path d="M35 82h140a45 45 0 0 0 2-90A70 70 0 0 0 43 10 38 38 0 0 0 35 82z" fill="#A8E6CF" opacity=".82"/>
+    <path d="M55 55h104" stroke="#0B1F23" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(552 365)">
+    <rect width="196" height="28" rx="8" fill="#A8E6CF"/>
+    <rect y="48" width="84" height="70" rx="8" fill="#3ED16F"/>
+    <rect x="100" y="48" width="96" height="70" rx="8" fill="#FFF57E"/>
+    <path d="M18 83h42M118 78h56M118 95h36" stroke="#0B1F23" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(162 402)">
+    <rect width="108" height="170" rx="18" fill="#0B1F23" stroke="#A8E6CF" stroke-width="3"/>
+    <rect x="18" y="24" width="72" height="86" rx="8" fill="#A8E6CF"/>
+    <path d="M30 132h48" stroke="#3ED16F" stroke-width="7" stroke-linecap="round"/>
+  </g>
+</svg>
