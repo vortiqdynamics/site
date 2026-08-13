@@ -9,7 +9,7 @@ window.VORTIQ_DATA = {
     ],
     phone: "+91 70126 55068",
     phones: [
-      { label: "Sales", number: "+91 7012655068" },
+      { label: "Sales", number: "+91 9061639695" },
       { label: "Support", number: "+91 9961237829" }
     ],
     location: "India / Global project delivery",
