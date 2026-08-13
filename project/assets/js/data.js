@@ -7,7 +7,7 @@ window.VORTIQ_DATA = {
       { label: "Sales", address: "sales@vortiqdynamics.com", note: "New projects, quotations & business inquiries.", purpose: "For new business inquiries, quotations, partnerships, and project discussions." },
       { label: "Support", address: "support@vortiqdynamics.com", note: "Ongoing projects, technical support & maintenance.", purpose: "For technical support, maintenance, existing projects, and customer assistance." }
     ],
-    phone: "+91 70126 55068",
+    phone: "+91 9061639695",
     phones: [
       { label: "Sales", number: "+91 9061639695" },
       { label: "Support", number: "+91 9961237829" }
